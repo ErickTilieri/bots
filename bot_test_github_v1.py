@@ -35,6 +35,6 @@ class TwitterBot:
                 bot.find_element_by_xpath('//div[@data-testid="like"]').click()
                 time.sleep(3)
 
-bot = TwitterBot('looney.bott@gmail.com','looney.bott.123') # Enter here your username/e-mail and password like this: ('email@email.com','password')
+bot = TwitterBot('','') # Enter here your username/e-mail and password like this: ('email@email.com','password')
 bot.login()
 bot.like_tweet('artificial intelligence') # Enter here the subject you want the bot to search for ('subject')
